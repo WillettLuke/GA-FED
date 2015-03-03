@@ -1,0 +1,75 @@
+body {
+	background-color: #FFE;
+	text-align: center;
+	font-family: 'AppleGothic';
+	border-style: solid;
+	border-width: 10px;
+	border-color: black;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 38x;
+	letter-spacing: 5px;
+}
+
+hr {
+	
+}
+
+.cookie-img {
+	width: 30%;
+	border-style: dashed;
+	border-color: black;
+}
+
+h2 {
+	font-size: 15px;
+	font-style: italic;
+
+}
+.Granny {
+	font-size: 20px;
+	color: purple;
+	font-style: normal;
+	font-weight: bold;
+	
+}
+.ingredients{
+	margin-right: 10%;
+	margin-left: 10%
+}
+
+.ing-list li {
+	list-style-type: none;
+}
+
+li {
+	list-style-position: inside;
+	font-size: 13px;
+	color: black;
+	text-indent: -50px;
+}
+
+.ingredients h4 {
+color: #887;
+font-style: italic;
+}
+
+
+.nutrition {
+	color: purple;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 2px;
+	padding-top: 20px;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a {
+	color: #900;
+}

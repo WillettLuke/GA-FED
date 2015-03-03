@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Cash Register</title>
+
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+<body>
+
+  <div id="register">
+
+    <div id="ticket">
+
+      <h1>Thank You!</h1>
+
+      <table>`
+        <tbody id="entries"></tbody>
+        <tfoot>
+          <tr>
+          <th>Total</th>
+          <th id="total">£`0.00</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+
+    <form class="entry" id="price">
+      <input id="newEntry" autofocus placeholder="Enter Price...">
+    </form>
+
+    <select>
+      <option value></option>
+    </select>
+
+    <form class="entry" id="people">
+      <input autofocus placeholder ="Enter amount of people..."?>
+    </form>
+  
+  </div>
+
+   <aside>
+      <div class="finalPrice">
+        <table>
+
+          <tr>
+          <th>Price Per Person</th>
+          <th id="pricePerPerson"></th>
+          </tr>
+        </table> 
+      </div>
+    </aside>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>

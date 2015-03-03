@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'AppleGothic';
+	font-variant: 
+}
+
+h1 {
+	color: orange;
+	padding-top: 2%;
+		}
+
+h2 {
+	color: white;
+			}
+
+p {
+	font-size: 12px;
+		}
+
+li {
+	list-style-type: square;
+	list-style-position: inside;
+		}
+

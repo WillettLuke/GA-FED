@@ -1,0 +1,186 @@
+body {
+	font-family: Lato;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.header h1 {
+	margin: 0;
+	float: left;
+	width: 22%;
+}
+
+.header h2 {
+	float: left;
+	width: 70%;
+	margin-top: 1.9%
+}
+
+.header nav {
+	float: left;
+	width: 100%;
+}
+
+.header nav a {
+	padding: 5px;
+	background-color: black;
+	color: silver;
+	text-decoration: none;
+	display: inline-block;
+	width: 15.6%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #D00;
+}
+
+p {
+	color: #444;
+}
+
+em {
+	font-size: 50px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	margin: none;
+
+}
+
+h2 { 
+	font-size: 25px;
+	font-weight: lighter;
+
+}
+
+nav a {
+	color: #EEE;
+	text-decoration: underline;
+	font-size: 20px;
+
+}
+
+.content1 {
+	float: left;
+	width: 60%;
+}
+
+.content1 p:first-of-type:first-letter {
+	float: left;
+	color: silver;
+	font-size: 80px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+.content1 h3 {
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.content1 h2 {
+	margin-top: 0;
+}
+
+.content2 {
+	float; left;
+	width: 60%;
+}
+
+.content2 p:first-of-type:first-letter { 
+	float: left;
+	color: silver;
+	font-size: 80px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+.extra-info {
+	float: right;
+	width: 35%;
+	margin-top: 5%;
+}
+.extra-info .AboutUs {
+	padding-bottom: 2%;
+	border-bottom: solid 2px silver;
+	margin-top: 14%;
+}
+
+.extra-info .AboutUs h3 {
+	font-weight: lighter;
+}
+
+.extra-info .AboutUs h4 {
+	text-align: right;
+}
+.extra-info .ad-img {
+	margin-top: 9%;
+	padding-bottom: 8%;
+	border-bottom: solid 2px silver;
+}
+.extra-info .ad-img img {
+	height: 300px;
+	width: 300px;
+	padding-left: 19%;
+}
+
+.extra-info .PopularPost {
+	margin-top: 9%;
+}
+
+.extra-info .PopularPost ul {
+	line-height: 250%;
+}
+
+article img {
+	width: 100%;
+}
+
+article h3 {
+	color: #DDD;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-top: 60px;
+}
+
+article h2 a {
+	color: black;
+	font-weight: lighter;
+}
+
+article h4  {
+	text-align: right;
+
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.second-nav {
+	color: #444;
+	text-align: center;
+}
+
+.second-nav a {
+	text-decoration: none;
+	color: #D00;
+}
+
+footer {
+	margin-top: 30px;
+	color: #DDD;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+

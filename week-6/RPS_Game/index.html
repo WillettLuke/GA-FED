@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title>Rock, Paper, Scissors Game</title>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+<div class="gameDiv">
+	<div class="banner">
+		<div class="header">
+			<h1>Rock, Paper, Scissors Game</h1>
+		</div> 
+		<div class="quote">
+			<h2>The ultimate way to decided <strong>ANY</strong> argument or batttle</h2>
+		</div>
+	</div>	
+
+	<div class="introText">
+		<p>select either <strong>Rock</strong>, <strong>Paper</strong> or <strong>Scissors</strong> to see if you can beat 
+	</div> 
+
+	<div class="userChoice" id="rock" value="rock">
+		<h3>Rock</h3>
+	</div>
+
+	<div class="userChoice" id="paper" value="paper">
+		<h3>Paper</h3>
+	</div>
+
+	<div class="userChoice" id="scissors" value="scissors">
+		<h3>Scissors</h3>
+	</div>
+
+	<!-- <img src="img/rps_stream_icon.png" class="rpsIcon"> -->
+
+	<div class="scoreboard">
+		<table>
+			<tr class="scores">
+				<td id="userScore">0</td>
+				<td id="compScore">0</td>
+			</tr>
+			<tr id="opponents">
+				<td>User</td>
+				<td>Computer</td>
+			</tr>
+			<tr class="results">
+				<td id="userResult">"60% of the time, </td>
+				<td id="compResult">it works ALL the time"</td>
+			</tr>
+		</table>
+
+		<h3 id="textResult"></h3>
+	</div>
+</div>
+
+<!-- <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script> -->
+<script src='js/jquery-1.11.2.js'></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

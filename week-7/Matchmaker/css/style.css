@@ -1,0 +1,364 @@
+
+/*body {
+	margin-left: 5%;
+	margin-right: 5%;
+}*/
+header {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	border-bottom: 2px solid yellow;
+}
+
+
+header h2 {
+	font-family: 'merriweather', serif; 
+	font-size: 40px;
+	color: yellow;
+	padding-left: 32px;
+	margin-top: 20px;
+}
+
+nav {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: right;
+
+}
+
+nav ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	float; right;
+	margin-right: 50px;
+}
+
+nav ul .bold {
+	font-family: 'Oswald', sans-serif;
+	font-style: bold;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+
+nav ul .bold:hover {
+	font-size: 35px;
+	transition-duration: 0.5s;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	padding-right: 20px;
+	color: white;
+	transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+
+.top-banner {
+	height: 50px;
+	background-color: silver;
+	text-align: center;
+	font-family: 'merriweather', serif; 
+}
+
+.top-banner h2 {
+	margin-top: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.img-box {
+	width: 100%;
+	height: 600px;
+	background-image: url("../coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: 1350px;
+}
+
+.float-box {
+width: 480px;
+height: 500px;
+background-color: rgba(300,300,300,0.9);
+float: right;
+border: 1px solid silver;
+margin-top: 3%;
+margin-bottom: 3%;
+margin-right: 3%;
+
+}
+
+.float-box h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	padding-left: 10%;
+	margin-bottom: 0;
+	margin-top: 50px;
+}
+
+.float-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	margin-top: 0;
+
+}
+
+.button-yellow {
+    display: inline-block;
+    background-color: yellow;
+    margin-left: 10%;
+    width: 380px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #888888;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    transition-duration: 0.2s;
+}
+
+.button-yellow:hover {
+	background-color: rgb(240,251,59);
+	color: silver;
+}
+
+
+footer {
+	background-color: black;
+	height: 50px;
+	color: white;
+	font-size: 15px;
+	padding-right: 5%;
+}
+
+footer p {
+	padding-left: 5%;
+	padding-top: 1.2%;
+	padding-bottom: 1.5%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+	margin-bottom: 80px;
+	margin-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+section h3 { 
+	font-family: 'merriweather', serif; 
+	font-size: 30px;
+
+}
+
+section p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+.profile {
+	width: 28%;
+	float: left;
+	position: absolute;
+	border-right: 1px solid silver;
+	padding-right: 2%;
+}
+
+.developer {
+	width: 29%;
+	float: left;
+	position: absolute;
+	margin-left: 34%;
+	border-right: 1px solid silver;
+}
+
+.designer {
+	width: 28%;
+	margin-left: 70%;
+	padding-top: 1px;
+}
+
+.button {
+	display: inline-block;
+	background-color: rgb(186,186,186);
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+    box-shadow: 3px 3px 1px #888888;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+	color: silver;
+	background-color: rgb(150,150,150);
+	font-size: 21px;
+	transition-duration: 0.2s;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+/*mobile styling*/
+@media screen and (max-width: 500px) {
+
+.clearfix h2 {
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+.burgerMenu {
+	position: relative;
+	padding-left: 1.25em;
+}
+
+.burgerMenu:before {
+	content: "";
+	float: right;
+	margin-right: 5%;
+	margin-top: -40px;
+	width: 10%;
+	height: 0.31em;
+	background: white;
+	box-shadow: 
+	 0 0.7em 0 0 white,
+	 0 1.4em 0 0 white;
+
+}
+
+.top-banner {
+	display: none;	
+}
+
+nav ul {
+	margin-right: 2%;
+}
+
+nav ul li {
+	width: 100%;
+}
+
+.img-box {
+	background-size: 383px;
+	height: 260px;
+}
+
+.float-box {
+	height: 190px;
+	width: 270px;
+}
+
+.float-box h3 {
+	font-size: 23px;
+	margin-top: 5%;
+	padding-left: 5%;
+}
+
+.float-box p {
+	font-size: 12px;
+	padding-left: 5%;
+}
+
+.button-yellow {
+	width: 220px;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+section	{ 
+
+	padding-left: 5px;
+	margin-top: none;
+	padding-right: 5px;
+
+}
+
+section h3 {
+	font-size: 25px;
+
+}
+
+section p {
+font-size: 14px;
+
+}
+
+.profile {
+	float: none;
+	width: 100%;
+	position: relative;
+	border-right: none;
+}
+
+.developer {
+	float: none;
+	width: 100%;
+	position: relative;
+	margin-left: 0;
+	border-right: none;
+}
+
+.designer {
+	width: 100%;
+	margin-left: none;
+	margin-left: 0;	
+}
+
+.button {
+	width: 90%;
+	font-size: 18px;
+}

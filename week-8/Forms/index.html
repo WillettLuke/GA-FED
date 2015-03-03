@@ -1,0 +1,103 @@
+<!Doctype html> 
+
+<html>
+<head>
+	<title>HTML Forms Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="container">
+		<h1> Course Application </h1>
+
+		<form>
+
+		<h2 class="formHeading">Your Contact info</h2>
+
+
+			<!--could change type to "email" "password" "radio" "checkboxes" -->
+			<div class="clear">
+			<label>Your Name </label>
+				<div class="formBoxes" id="nameInput">
+							<input type="text" name="firstName" placeholder="First Name" />
+							 <input type="text" name="surnameName" placeholder="Surname Name" />
+				</div> 
+			</div>
+
+
+			<div class="clear">
+				<label>Phone Number </label>
+					<div class="formBoxes" id="numberInput">
+						<input type="number" /> - <input type="number" /> - <input type="number" /> 
+				   </div>
+			</div>
+			
+		 
+			<div class="clear">
+				<label for="Address">Address</label>
+				<div class="formBoxes" id="addressInput">
+					<input type="text" name="Address" id="Address1" placeholder="Street Name"/>
+					<input type="text" name="Address" id="Address2" placeholder="Address line 2"/>
+					<input type="text" name="Address" id="Address3" placeholder="City"/>
+					<input type="text" name="Address" id="Address4" placeholder="State"/>
+					<input type="text" name="Address" id="Address5" placeholder="Post Code"/>
+				</div>
+			</div>
+	
+		<h3 class="formHeading"> Skills and Interests </h3>
+
+			<div class="clear">
+			<label> Course </label>
+				<div class="formBoxes" id="optionInput">
+					<select>
+						<option value ="-1">Select an Option</option>
+						<option value="Option 1">Option 1</option>
+						<option value="Option 2">Option 2</option>
+						<option value="Option 3">Option 3</option>
+					</select>
+				</div>
+			</div>
+			
+
+		<div class="clear">
+			<label>Past Experience </label>
+			<div class="formBoxes" id="expInput">
+				<input type="text" name="pastExpernience" id="pastExp" class="resizeable"/> 
+			 </div>
+		</div>
+
+	   
+		
+		<h4 class="formHeading"> Anything Else </h4>	
+
+		<div class="clear">
+		<label> Referral </label>
+			<div class="formBoxes" id="noneInput">
+				<select>
+					<option value ="-1">None</option>
+					<option value="Option 1">Friend</option>
+					<option value="Option 2">Employee</option>
+					<option value="Option 3">Other</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="clear">
+		<label>Comments </label>
+			<div class="formBoxes" id="commentsInput">
+				<input type="text" name="comments" id="comments" class="resizeable" /> 
+			</div>
+		</div>
+	
+		<div class="btn">
+			<input type="submit" class="submitBtn" value="Save Draft" />
+			<input type="submit" class="submitBtn" value="submit" /> 
+		</div>
+
+		</form>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+	width: 30%;
+	background-color: black;
+	color: white;
+	margin-left: 35%;
+}
+
+h2:hover {
+	color: gray;
+	size: 40px;
+	transition: 300ms;
+}
+
+h2 {
+	cursor: pointer;
+	background-color: black;
+	width: 40%;
+	color: white;
+	margin-left: 30%;
+	margin-right: 35%;
+	size: 30px;
+
+}
+
+h3 {
+	cursor: pointer;
+	background-color: black;
+	width: 20%;
+	color: white;
+	margin-left: 40%;
+	margin-right: 35%;
+	size: 30px;
+
+}
+
+
+div {
+	margin: 0;
+	padding: 0;
+	border: 1px solid transparent;
+}

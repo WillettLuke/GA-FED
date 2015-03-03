@@ -1,0 +1,101 @@
+body {
+	background-color: black;
+	font-family: monospace;
+	color: white;
+}
+
+.gameDiv {
+	width: 80%;
+	/*border: 1px solid whitesmoke;*/
+	margin: 2% 10% 5% 10%;
+	text-align: center;
+}
+
+h1 {
+
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font: 50px 'MisoRegular';
+
+}
+
+h2 {
+	font-size: 2.7em;
+}
+
+.introText p {
+	font-size: 1.4em;
+	padding-top: 20px;
+}
+
+.userChoice {
+	display: inline-block;
+	cursor: pointer;
+	width: 30%;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px lime, 0 0 30px lime, 0 0 40px lime, 0 0 50px lime, 0 0 75px lime;
+	letter-spacing: 5px;
+	font-family: monospace;
+	font-size: 3em;
+}
+
+#rock:hover {
+	font-size: 2.3em;
+}
+
+#paper:hover {
+	font-size: 2.3em;
+}
+
+#scissors:hover {
+	font-size: 2.3em;
+}
+
+table {
+	margin: 0 auto;
+}
+
+.scoreboard {
+	width: 50%;
+	margin: 0 auto;
+	border: 9px solid;
+	border-radius: 50px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	padding-top: 2%;
+}
+
+.scoreboard .scores {
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px teal, 0 0 30px teal, 0 0 40px teal, 0 0 50px teal, 0 0 75px teal;
+	letter-spacing: 5px;
+	font: 4em 'MisoRegular';
+
+}
+
+.scoreboard .scores #userScore, #compScore {
+	width: 30%;
+}
+
+.scoreboard #opponents {
+	font-size: 2em;
+}
+
+.scoreboard #userResult, #compResult {
+	font-size: 1.3em;
+	padding-top: 20px;
+}
+
+.scoreboard #textResult {
+	font-size: 2.5em;
+}
+
+img {
+	display: block;
+	float: left;
+	margin-left: -230px;
+	opacity: 0.5;
+	width: 20%;
+}
+

@@ -1,0 +1,46 @@
+body {
+	background-color: #444444;
+	border: 4px solid #777777;
+	color: white;
+	margin-top: 50px;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-family: 'Ariel', Georgia;
+	font-weight: lighter;
+
+}
+
+.navigate {
+	text-align: center;
+
+}
+
+h2 {
+	font-weight: bold;
+	font-style: 'Ariel', Lucida;
+	font-weight: lighter;
+
+}
+
+img {
+border: 2px solid #777777;
+padding: 5px;
+float: right;
+
+}
+
+p {
+	
+
+}
+
+.social-media {
+	text-align: center;	
+}

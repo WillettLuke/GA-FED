@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+  min-height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+body, html, header {
+  border: none;
+}
+
+footer, header {
+  min-height: 10vh;
+}
+
+main {
+  min-height: 50vh;
+}
+nav {
+  width: 100%;
+}
+
+nav div {
+  margin: 10px;
+  width: 15%;
+  display: inline-block;
+}
+
+main {
+  height: 200px;
+  margin: 10px;
+}
+
+section {
+  border: none;
+  text-align: center;
+}
+
+article {
+  width:20%;
+  display: inline-block;
+  margin: 1%;
+}
+
+footer {
+  text-align: center;
+}
+
+footer div {
+  width: 28%;
+  margin: 2%;
+  display: inline-block;
+
+}
+

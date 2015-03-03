@@ -1,0 +1,17 @@
+<h2> form test </h2>
+
+<form method="get" action="http://www.google.co.uk/#" target="_blank">
+	<input type="search" name="q">
+	<input type="hidden" name="q"  value="apple" />
+	<button type="submit" value="submit">Search</button>
+</form>
+
+<script>
+	$('form').on('submit', function (e) {
+		e.prevetDefault();
+
+
+		window.location="http://google.co.uk/#q=apple+" + valueForm
+ 	})
+
+</script>
